@@ -1,28 +1,28 @@
-Algoritmo "SOMADORNUMERICO"
+Algoritmo "CONTA1A10+TABUADA"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 27/03/2023
+// Data atual  : 29/03/2023
 Var
    // Seção de Declarações das variáveis
-   contador, numero, soma: inteiro
-   resp: caractere
-
+   contador, numero, resultado: inteiro
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    contador <- 1
-   soma <- 0
-   resp <- "S"
+   numero <- 7
+   
+   Escreva("Quer ver a tabuada de qual número? ")
+   Leia(numero)
+   
+   Repita
+   resultado <- numero * contador
+   
+   Escreval(numero, " x", contador, " =", resultado)
+   contador <- contador + 1
+   
+   Ate (contador > 10)
 
-   Enquanto (resp = "S") Faca
-      Leia(numero)
-      
-      soma <- soma + numero
-      
-      Escreva("Você quer continuar? [S/N]")
-   FimEnquanto
 
-   Escreval("A soma de todos os valores foi: ", soma)
 Fimalgoritmo

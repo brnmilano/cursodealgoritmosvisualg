@@ -6,22 +6,23 @@ Algoritmo "SOMADORNUMERICO"
 // Data atual  : 27/03/2023
 Var
    // Seção de Declarações das variáveis
-   contador, numero, soma: inteiro
+   numero, soma: inteiro
    resp: caractere
 
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   contador <- 1
    soma <- 0
    resp <- "S"
 
    Enquanto (resp = "S") Faca
+      Escreva("Digite o valor ==> ")
       Leia(numero)
-      
+
       soma <- soma + numero
-      
+
       Escreva("Você quer continuar? [S/N]")
+      Leia(resp)
    FimEnquanto
 
    Escreval("A soma de todos os valores foi: ", soma)

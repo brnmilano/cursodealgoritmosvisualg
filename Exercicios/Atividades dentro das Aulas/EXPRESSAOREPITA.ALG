@@ -1,4 +1,4 @@
-Algoritmo "SOMADORNUMERICO"
+Algoritmo "EXPRESSAOREPITA"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -6,23 +6,24 @@ Algoritmo "SOMADORNUMERICO"
 // Data atual  : 27/03/2023
 Var
    // Seção de Declarações das variáveis
-   contador, numero, soma: inteiro
+   numero, soma: inteiro
    resp: caractere
 
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   contador <- 1
    soma <- 0
-   resp <- "S"
 
-   Enquanto (resp = "S") Faca
+   Repita
+      Escreva("Digite o valor ==> ")
       Leia(numero)
-      
+
       soma <- soma + numero
-      
+
       Escreva("Você quer continuar? [S/N]")
-   FimEnquanto
+      Leia(resp)
+   Ate (resp = "N")
 
    Escreval("A soma de todos os valores foi: ", soma)
+   
 Fimalgoritmo
