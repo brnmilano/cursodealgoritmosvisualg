@@ -9,3 +9,5 @@ Caso você não consiga ver ou não consiga trocar a roupagem do programa VISUAL
 Download do Visualg - https://sourceforge.net/projects/visualg30/
 
 Curso - https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+
+Exercícios - https://www.cursoemvideo.com/wp-content/uploads/2019/08/exercicios-algoritmos.pdf
